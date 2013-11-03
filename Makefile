@@ -15,3 +15,6 @@ vendor: composer.phar
 
 composer.phar:
 	curl -sS https://getcomposer.org/installer | php
+
+server:
+	php -S 0:8080 -t public/ public/index.php
