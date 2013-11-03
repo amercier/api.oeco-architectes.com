@@ -1,0 +1,39 @@
+{
+    "name": "amercier/api.oeco-architectes.com",
+    "description": "Oeco Architectes Website API",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+        "api",
+        "apigility",
+        "framework",
+        "zf2"
+    ],
+    "homepage": "http://api.oeco-architectes.com/",
+    "support": {
+        "email": "pro.alexandre.mercier@gmail.com",
+        "source": "https://github.com/amercier/api.oeco-architectes.com",
+        "issues": "https://github.com/amercier/api.oeco-architectes.com/issues"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "dev-develop",
+        "rwoverdijk/assetmanager": "dev-master",
+        "zfcampus/zf-apigility": "dev-master",
+        "zfcampus/zf-configuration": "dev-master"
+    },
+    "require-dev": {
+        "zendframework/zftool": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "zfcampus/zf-apigility-admin": "dev-master",
+        "zfcampus/zf-apigility-example": "dev-master",
+        "zfcampus/zf-apigility-welcome": "dev-master"
+    }
+}
